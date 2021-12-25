@@ -1,0 +1,39 @@
+.logoimg{
+    height: 75px;
+    margin-left: 13px;
+}
+.inbtn{
+    display: flex;
+    justify-content: end;
+    margin-right: 13px;
+
+}
+input{
+    border: solid 3px #181F29;
+    border-color: #181F29;
+    border-radius: 4px;
+}
+p{
+    color: white;
+    font-size: 30px;
+    margin-left: 100px;
+}
+.card{
+    margin: 20px;
+}
+.grid{
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.grid img{
+    margin: 13px;
+    width: 500px;
+    transition: 1s;
+    height: 300px;
+    border-radius: 12px;
+}
+img:hover {
+    transform:scale(1.1) ;
+}
